@@ -1,0 +1,25 @@
+name: t154_flutter_crashlytics
+description: A new flutter module project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_crashlytics: ^0.1.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  module:
+    androidX: true
+    androidPackage: com.example.t154_flutter_crashlytics
+    iosBundleIdentifier: com.example.t154FlutterCrashlytics
